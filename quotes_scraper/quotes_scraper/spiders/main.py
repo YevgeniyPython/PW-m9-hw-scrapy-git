@@ -38,7 +38,7 @@ process = CrawlerProcess(settings={
             'encoding': 'utf8',
             'ensure_ascii': False,
             'indent': 4,
-            'fields': ['quote', 'author', 'tags']
+            'fields': ['tags', 'author', 'quote']
         },
         'authors.json': {
             'format': 'json',
