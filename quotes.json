@@ -187,13 +187,6 @@
     "author": "Allen Saunders",
     "quote": "“Life is what happens to us while we are making other plans.”"
 },
-{},
-{},
-{},
-{},
-{},
-{},
-{},
 {
     "tags": [
         "love",
@@ -249,6 +242,11 @@
     "quote": "“If you want your children to be intelligent, read them fairy tales. If you want them to be more intelligent, read them more fairy tales.”"
 },
 {
+    "tags": [],
+    "author": "J.K. Rowling",
+    "quote": "“It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all - in which case, you fail by default.”"
+},
+{
     "tags": [
         "imagination"
     ],
@@ -262,12 +260,6 @@
     "author": "Bob Marley",
     "quote": "“One good thing about music, when it hits you, you feel no pain.”"
 },
-{},
-{},
-{},
-{},
-{},
-{},
 {
     "tags": [
         "learning",
@@ -349,12 +341,6 @@
     "author": "George Eliot",
     "quote": "“It is never too late to be what you might have been.”"
 },
-{},
-{},
-{},
-{},
-{},
-{},
 {
     "tags": [
         "read",
@@ -374,6 +360,11 @@
     ],
     "author": "C.S. Lewis",
     "quote": "“You can never get a cup of tea large enough or a book long enough to suit me.”"
+},
+{
+    "tags": [],
+    "author": "Marilyn Monroe",
+    "quote": "“You believe lies so you eventually learn to trust no one but yourself.”"
 },
 {
     "tags": [
@@ -405,7 +396,6 @@
     "author": "Marilyn Monroe",
     "quote": "“A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left.”"
 },
-{},
 {
     "tags": [
         "hope",
@@ -428,10 +418,6 @@
     "author": "James Baldwin",
     "quote": "“Love does not begin and end the way we seem to think it does. Love is a battle, love is a war; love is a growing up.”"
 },
-{},
-{},
-{},
-{},
 {
     "tags": [
         "friendship",
@@ -512,10 +498,6 @@
     "author": "George Bernard Shaw",
     "quote": "“Life isn't about finding yourself. Life is about creating yourself.”"
 },
-{},
-{},
-{},
-{},
 {
     "tags": [
         "alcohol"
@@ -593,12 +575,6 @@
     "author": "Dr. Seuss",
     "quote": "“I have heard there are troubles of more than one kind. Some come from ahead and some come from behind. But I've bought a big bat. I'm all ready you see. Now my troubles are going to have troubles with me!”"
 },
-{},
-{},
-{},
-{},
-{},
-{},
 {
     "tags": [
         "friendship",
@@ -677,6 +653,11 @@
     "quote": "“I am free of all prejudice. I hate everyone equally. ”"
 },
 {
+    "tags": [],
+    "author": "Ayn Rand",
+    "quote": "“The question isn't who is going to let me; it's who is going to stop me.”"
+},
+{
     "tags": [
         "books",
         "classic",
@@ -685,9 +666,6 @@
     "author": "Mark Twain",
     "quote": "“′Classic′ - a book which people praise and don't read.”"
 },
-{},
-{},
-{},
 {
     "tags": [
         "mistakes"
@@ -771,13 +749,6 @@
     "author": "C.S. Lewis",
     "quote": "“I believe in Christianity as I believe that the sun has risen: not only because I see it, but because by it I see everything else.”"
 },
-{},
-{},
-{},
-{},
-{},
-{},
-{},
 {
     "tags": [
         "truth"
@@ -856,11 +827,5 @@
     ],
     "author": "George R.R. Martin",
     "quote": "“... a mind needs books as a sword needs a whetstone, if it is to keep its edge.”"
-},
-{},
-{},
-{},
-{},
-{},
-{}
+}
 ]
