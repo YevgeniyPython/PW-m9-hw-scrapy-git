@@ -1,5 +1,3 @@
-# This script works
-
 import scrapy
 from scrapy.crawler import CrawlerProcess
 
@@ -20,7 +18,6 @@ class QuotesSpider(scrapy.Spider):
     allowed_domains = ['quotes.toscrape.com']
 
     def parse(self, response):
-        # Парсим цитаты и основную информацию
         for quote in response.xpath('//div[@class="quote"]'):
             author_url = response.urljoin(quote.xpath('span/a/@href').get())
             yield {
@@ -30,7 +27,6 @@ class QuotesSpider(scrapy.Spider):
                 'tags': quote.xpath('div[@class="tags"]/a[@class="tag"]/text()').getall()
             }
 
-        # Переход на следующую страницу
         next_page = response.xpath('//li[@class="next"]/a/@href').get()
         if next_page:
             yield response.follow(next_page, self.parse)
@@ -54,15 +50,12 @@ class AuthorsSpider(scrapy.Spider):
     def parse(self, response):
         for quote in response.xpath('//div[@class="quote"]'):
             author_url = response.urljoin(quote.xpath('span/a/@href').get())
-            # Запрашиваем информацию об авторе
             yield response.follow(author_url, self.parse_author)
-        # Переход на следующую страницу
         next_page = response.xpath('//li[@class="next"]/a/@href').get()
         if next_page:
             yield response.follow(next_page, self.parse)
 
     def parse_author(self, response):
-        # Парсим информацию об авторе
         yield {
             'fullname': response.xpath('//h3[@class="author-title"]/text()').get().strip(),
             'born_date': response.xpath('//span[@class="author-born-date"]/text()').get().strip(),
@@ -70,7 +63,6 @@ class AuthorsSpider(scrapy.Spider):
             'description': response.xpath('//div[@class="author-description"]/text()').get().strip(),
         }
 
-# Запуск паука
 process = CrawlerProcess()
 process.crawl(QuotesSpider)
 process.crawl(AuthorsSpider)
